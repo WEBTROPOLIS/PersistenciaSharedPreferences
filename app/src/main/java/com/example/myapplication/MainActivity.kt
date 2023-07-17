@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
                 if (dec != null) {
                     saveDecimalPreference(dec)
                 } else {
-                    Toast.makeText(this, "Decimal ,Ingresado no es Valido", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Decimal Ingresado no es Valido", Toast.LENGTH_SHORT).show()
                 }
             }
         }
